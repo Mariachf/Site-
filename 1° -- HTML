@@ -1,0 +1,78 @@
+<head>
+</head>
+<body>
+<style>
+</style>
+<header>
+<img src="https://i.pinimg.com/564x/76/c3/6c/76c36c895136526fa17e14b81bd29cad.jpg">
+ <h1>Scooby Doo</h1>
+<ul>
+<li><a href="#">Tudo sobre o scooby</a></li>
+  <li><a href="#">A comida favorita</a></li>
+  <li><a href="#">E o melhor amigo dele</a></li>
+ </h2>
+  </ul>
+</header>
+  <article>
+ <h2>Tudo Sobre o Scooby</h2>
+  <p>é o apelido de Scoobert-Doo, um cachorro covarde. Tem medo da própria sombra e, sem querer, acaba salvando a turma ou pegando os vilões. Sempre impulsionado pela promessa de um bom lanche, biscoitos caninos (os Biscoitos Scooby) ou caramelos. Ele encerra cada episódio "falando" "Scooby-Dooby-Doo-oo-oo !!!"</p>
+    <button class="btn btn-curtir">
+  <span class="btn-icone btn--icone-curtir">
+    <span class="fa fa-heart"></span>
+  </span>
+  <span class="btn-icone btn--icone-curtido">
+    <span class="fa fa-heart"></span>
+  </span>
+  <span class="btn-conteudo btn-conteudo--curtido">Curtido</span>
+  <span class="btn-conteudo btn-conteudo--curtir">Curtir</span>
+</button>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+/>
+    </article>
+    <article>
+   <h2>A comida favorita</h2>
+ <p>a comida preferida são os Biscoitos Scooby. Toda vez que ele toma um ele fica mais corajoso e aceita servir como isca viva para os monstros. Scooby é calado, ele não fala muito e sua principal frase é Scooby-dooby-doo!</p>
+    <button class="btn btn-curtir">
+  <span class="btn-icone btn--icone-curtir">
+    <span class="fa fa-heart"></span>
+  </span>
+  <span class="btn-icone btn--icone-curtido">
+    <span class="fa fa-heart"></span>
+  </span>
+  <span class="btn-conteudo btn-conteudo--curtido">Curtido</span>
+  <span class="btn-conteudo btn-conteudo--curtir">Curtir</span>
+</button>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+/>
+   </article>
+    <article>
+  <h2>E o melhor amigo dele</h2>
+  <p>mais conhecido como Salsicha, é um dos integrantes da mistério S/A e o dono do Scooby-Doo.</p>
+   <button class="btn btn-curtir">
+  <span class="btn-icone btn--icone-curtir">
+    <span class="fa fa-heart"></span>
+  </span>
+  <span class="btn-icone btn--icone-curtido">
+    <span class="fa fa-heart"></span>
+  </span>
+  <span class="btn-conteudo btn-conteudo--curtido">Curtido</span>
+  <span class="btn-conteudo btn-conteudo--curtir">Curtir</span>
+</button>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+/>
+    </article>
+  
+  <a> </a> 
+</body>
