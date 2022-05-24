@@ -1,0 +1,165 @@
+  header{
+  text-align: center;
+  width: 1250px;
+  background-image: url("https://clube-static.clubegazetadopovo.com.br/portal/wp-content/uploads/2020/09/Scooby-Doo-1024x576.jpeg");
+  background-size: 1250px;
+  border: solid 0px;
+        text-shadow: white 0px 0px 2px;
+    }
+    
+    a{
+      color: white;
+      
+    }
+    h1{
+      font-size: 100px;
+      color: white;
+    }
+    img{
+     margin: 20px;
+  border: 7px #008080;
+  border-radius: 20px;
+     height: 170px;
+    }
+    
+    ul{
+      
+      padding: 10px;
+      background: #008080;
+    }
+    li{
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+h2{
+    font-size: 15px;
+
+    padding: 8px;
+
+    background-color: #008080;
+
+    color: white;
+}
+p{
+  line-height: 30px;
+  text-align: center;
+}
+:root {
+  --teal: #008080;
+  --teal: #008080;
+  --white: #fff;
+  --blue: #ccc;
+}
+
+
+.btn {
+  width: 150px;
+  height: 56px;
+  outline: 0;
+  border: 1px solid var(--gray);
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.02);
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.0);
+}
+
+.btn-curtir {
+  padding: 1.0rem 1.5rem 1.5rem 6rem;
+  font-size: 20px;
+  border-radius: 10px;
+  background: var(--white);
+}
+
+.btn-curtir.curtido {
+  background: var(--teal);
+  border-color: var(--aqua); 
+  font-size: 20px;
+  padding: 1.0rem 1.5rem 1.5rem 5rem;
+  }
+
+/* Icone do botão */
+.btn-icone {
+  display: inline-block;
+  width: 60px;
+  height:100px;
+  position: absolute;
+  left: 100px;
+  transform: rotate(0deg);
+}
+
+/* Cor do icone e pulsar */
+.curtido .btn--icone-curtir {
+  transform: scale(2);
+}
+
+.btn:not(.curtido).btn--icone-curtido {
+  transform: scale(-2);
+}
+
+.curtido .btn--icone-curtir,
+.btn--icone-curtido {
+  opacity: 0;
+  position: absolute;
+}
+
+.btn--icone-curtir,
+.curtido .btn--icone-curtido {
+  opacity: 1;
+  left: 0.5rem;
+}
+
+/*-- Conteudo do botão -- */
+.btn-conteudo {
+  display: inline-block;
+}
+
+/* Rotação */
+.btn:not(.curtido) .btn-conteudo--curtido {
+  transform: translate(110px);
+}
+
+.btn:not(.curtido) .btn-conteudo--curtir {
+  transform: translate(-99px);
+}
+
+.curtido .btn-conteudo--curtir {
+  transform: translate(40px);
+}
+
+.btn-conteudo--curtido {
+  transform: translate(-11px);
+}
+
+/* Classes que utilizam propriedades iguais */
+.btn,
+.btn-curtir,
+.btn-icone,
+.curtido,
+.btn-conteudo,
+.btn-conteudo--curtir,
+.btn-conteudo--curtir {
+  transition: 1.5s;
+}
+
+.btn,
+.btn:hover.curtido .btn-conteudo,
+.btn.curtido:hover .btn-icone {
+  color: var(--teal);
+}
+
+.btn:hover,
+.btn:hover .btn-icone {
+  color: var(--teal);
+}
+
+.curtido .btn--icone-curtir,
+.btn--icone-curtido,
+.curtido .btn-conteudo {
+  color: var(--white);
+}
